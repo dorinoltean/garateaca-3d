@@ -15,7 +15,7 @@ model-viewer {
   right: 0;
   top: 0;
   bottom: 0;
-  background-image: url("./preview.png");
+  background-image: url("./preview.webp");
 
   background-repeat: no-repeat;
   background-position: center;
