@@ -8,8 +8,15 @@
 </head>
 
 <body>
-  <model-viewer src="./gara-teaca.gltf" alt="Gara Teaca - Mocănița Transilvaniei" ar auto-rotate
-    camera-controls></model-viewer>
+  <model-viewer id="model" src="./gara-teaca.gltf" alt="Gara Teaca - Mocănița Transilvaniei" ar camera-controls
+    auto-rotate min-field-of-view="2deg">
+
+    <div id="lazy-load-poster" slot="poster"></div>
+    <div id="loading" slot="poster">Loading</div>
+
+  </model-viewer>
+
+
 
 </body>
 
